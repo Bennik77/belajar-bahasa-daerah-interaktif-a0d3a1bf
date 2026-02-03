@@ -20,6 +20,10 @@ import UmpanBalikPage from "./pages/user/UmpanBalikPage";
 import ProgressPage from "./pages/user/ProgressPage";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import AdminPembelajaran from "./pages/admin/AdminPembelajaran";
+import AdminUjian from "./pages/admin/AdminUjian";
+import AdminKomunitas from "./pages/admin/AdminKomunitas";
+import AdminUmpanBalik from "./pages/admin/AdminUmpanBalik";
+import AdminPengguna from "./pages/admin/AdminPengguna";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -64,10 +68,10 @@ function AppRoutes() {
       {/* Admin Routes */}
       <Route path="/admin" element={<ProtectedRoute adminOnly><AdminDashboard /></ProtectedRoute>} />
       <Route path="/admin/pembelajaran" element={<ProtectedRoute adminOnly><AdminPembelajaran /></ProtectedRoute>} />
-      <Route path="/admin/ujian" element={<ProtectedRoute adminOnly><AdminDashboard /></ProtectedRoute>} />
-      <Route path="/admin/komunitas" element={<ProtectedRoute adminOnly><AdminDashboard /></ProtectedRoute>} />
-      <Route path="/admin/umpan-balik" element={<ProtectedRoute adminOnly><AdminDashboard /></ProtectedRoute>} />
-      <Route path="/admin/pengguna" element={<ProtectedRoute adminOnly><AdminDashboard /></ProtectedRoute>} />
+      <Route path="/admin/ujian" element={<ProtectedRoute adminOnly><AdminUjian /></ProtectedRoute>} />
+      <Route path="/admin/komunitas" element={<ProtectedRoute adminOnly><AdminKomunitas /></ProtectedRoute>} />
+      <Route path="/admin/umpan-balik" element={<ProtectedRoute adminOnly><AdminUmpanBalik /></ProtectedRoute>} />
+      <Route path="/admin/pengguna" element={<ProtectedRoute adminOnly><AdminPengguna /></ProtectedRoute>} />
       
       <Route path="*" element={<NotFound />} />
     </Routes>
