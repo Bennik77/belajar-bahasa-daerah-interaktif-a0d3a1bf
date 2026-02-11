@@ -69,7 +69,7 @@ Sebelum memulai, pastikan Anda telah menginstal:
    ```bash
    npm run dev
    ```
-4. Buka browser dan akses ke: [http://localhost:5173](http://localhost:5173).
+4. Buka browser dan akses ke: [http://localhost:8080/](http://localhost:8080/).
 
 ---
 
