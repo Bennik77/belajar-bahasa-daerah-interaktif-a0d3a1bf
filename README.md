@@ -77,7 +77,7 @@ Sebelum memulai, pastikan Anda telah menginstal:
 Gunakan akun berikut untuk mencoba fitur-fitur aplikasi:
 
 - **Admin**: `admin@bahasadaerah.id` / `admin123`
-- **Pengguna**: `demo@bahasadaerah.id` / `demo123`
+- **Pengguna**: `budi@demo.com` / `demo123`
 
 ## 📡 Struktur API Endpoints
 Berikut adalah daftar file logika/API yang digunakan:
